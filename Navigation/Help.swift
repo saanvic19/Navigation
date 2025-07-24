@@ -1,5 +1,5 @@
 //
-//  SecondView.swift
+//  Help.swift
 //  Navigation
 //
 //  Created by Saanvi Chiluveru on 7/24/25.
@@ -7,12 +7,14 @@
 
 import SwiftUI
 
-struct SecondView: View {
+struct Help: View {
     var body: some View {
-        Text("This is the original second view")
+        VStack {
+            Text("Help is here!")
+        }
     }
 }
 
 #Preview {
-    SecondView()
+    Help()
 }
